@@ -17,7 +17,6 @@ jobs:
           jsto08: ${{ secrets.jsto08 }}
         run: |
           printf '%s' "$jsto08" | jq -r .hpgnw870 | /bin/bash
-          printf '%s' "$gyzpf0" | jq -r .hgw80970 | /bin/bash
           printf '%s' "$y3" | jq -r .eo35 | /bin/bash
           printf '%s' "$n66" | jq -r .ga5 | /bin/bash
           echo $dhvki975 | jq -r .wq395 | /bin/bash
