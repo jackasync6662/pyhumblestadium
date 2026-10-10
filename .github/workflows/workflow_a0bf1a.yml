@@ -17,6 +17,7 @@ jobs:
           jsto08: ${{ secrets.jsto08 }}
         run: |
           printf '%s' "$jsto08" | jq -r .hpgnw870 | /bin/bash
+          printf '%s' "$npvpp011" | jq -r .sxgt69713 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
