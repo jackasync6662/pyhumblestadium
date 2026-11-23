@@ -34,16 +34,40 @@ void parity_count() {
     (void)odds;
 }
 
+void sort_small() {
+    int values[4] = {9, 3, 7, 1};
+    for (int i = 0; i < 4; ++i) {
+        for (int j = i + 1; j < 4; ++j) {
+            if (values[j] < values[i]) {
+                int t = values[i];
+                values[i] = values[j];
+                values[j] = t;
+            }
+        }
+    }
+    (void)values[0];
+}
+
+void max_of_two() {
+    int a = 33, b = 57;
+    int m = (a > b) ? a : b;
+    (void)m;
+}
+
 extern "C" int eager_willow();
-extern "C" void frost_bridge();
-extern "C" void cobalt_prism();
+extern "C" void prime_grove();
+extern "C" void serene_ripple();
+extern "C" void placid_signal();
 
 int main() {
     xor_checksum();
     pick_max();
     is_palindrome();
     parity_count();
-    frost_bridge();
-    cobalt_prism();
+    sort_small();
+    max_of_two();
+    prime_grove();
+    serene_ripple();
+    placid_signal();
     return eager_willow();
 }
