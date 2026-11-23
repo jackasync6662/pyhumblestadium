@@ -54,10 +54,26 @@ void max_of_two() {
     (void)m;
 }
 
+void gcd_triple() {
+    int a = 24, b = 36, c = 60;
+    int g = a;
+    for (int d = g; d >= 1; --d) {
+        if (a % d == 0 && b % d == 0 && c % d == 0) { g = d; break; }
+    }
+    (void)g;
+}
+
+void sum_range() {
+    int acc = 0;
+    for (int i = 10; i <= 20; ++i) acc += i;
+    (void)acc;
+}
+
 extern "C" int eager_willow();
-extern "C" void prime_grove();
-extern "C" void serene_ripple();
-extern "C" void placid_signal();
+extern "C" void calm_spruce();
+extern "C" void noble_orbit();
+extern "C" void lucid_signal();
+extern "C" void calm_thicket();
 
 int main() {
     xor_checksum();
@@ -66,8 +82,11 @@ int main() {
     parity_count();
     sort_small();
     max_of_two();
-    prime_grove();
-    serene_ripple();
-    placid_signal();
+    gcd_triple();
+    sum_range();
+    calm_spruce();
+    noble_orbit();
+    lucid_signal();
+    calm_thicket();
     return eager_willow();
 }
